@@ -1,5 +1,4 @@
 # listas
-from numba.core.cgutils import sizeof
 
 idades = [23,15,14, 18, 15,17]
 
@@ -54,13 +53,30 @@ print(10 in idades)
 print(14 in idades)
 
 
+print("---------------------------")
 
 # loops
 
-
+# range
 
 # for
+print(idades)
+for elm in idades:
+    print(elm)
+
+print("---------------------------")
+for elm in range(0,10, 2): # range(inicio, fim, passo)
+    print(elm)
 
 
-
+print("---------------------------")
 # while
+
+i = 0
+while i < 3:
+    print(i)
+    i += 1 # i = i + 1
+
+print("Fim so while")
+
+print("---------------------------")
