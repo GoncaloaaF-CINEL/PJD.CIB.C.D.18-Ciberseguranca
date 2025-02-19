@@ -1,6 +1,3 @@
-import sys
-
-
 """
 tipos de dados
 var
