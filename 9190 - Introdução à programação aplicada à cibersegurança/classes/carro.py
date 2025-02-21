@@ -10,12 +10,13 @@ class Carro:
     velocidade: int = 0
 
     def arrancar(self):
-       if self.andar:
-                print("Carro já está amdar")
-         else:
-                print("Carro arrancou")
-                self.andar = True
-                self.velocidade = 1
+        if self.andar:
+            print("Carro já está amdar")
+
+        else:
+            print("Carro arrancou")
+            self.andar = True
+            self.velocidade = 1
 
 
     def acelerar(self, velo):
@@ -25,7 +26,7 @@ class Carro:
         else:
             print("Carro não está andando")
 
-    
+
     def travar_para(self, velo):
         if self.andar:
 
@@ -35,8 +36,6 @@ class Carro:
 
             self.velocidade = velo
             print(f"Carro diminu para {velo} km/h")
-
-
 
         else:
             print("Carro não está andando")

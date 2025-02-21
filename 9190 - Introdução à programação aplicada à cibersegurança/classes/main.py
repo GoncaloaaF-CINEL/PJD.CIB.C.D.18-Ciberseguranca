@@ -15,3 +15,18 @@ c1.marca = 'Fiat'
 
 c1.aclarar()
 c2.aclarar()
+
+
+
+"""
+Classe Bola: Crie uma classe que modele uma bola: 
+    Atributos: Cor, circunferência, material
+    Métodos: trocaCor e mostraCor
+    
+
+Classe Quadrado: Crie uma classe que modele um quadrado: 
+    Atributos: Tamanho do lado
+    Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+
+
+"""
