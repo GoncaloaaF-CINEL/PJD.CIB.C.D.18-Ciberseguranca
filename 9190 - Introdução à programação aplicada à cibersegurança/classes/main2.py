@@ -31,3 +31,14 @@ print("----------------")
 
 # pedir ao utilizador um ano e mostrar todos os carros com esse ano
 
+ano = int(input("Digite um ano: "))
+
+contador = 0
+for c in lista_carros:
+    if c.ano == ano:
+        print(c.modelo)
+        contador += 1
+
+
+if contador == 0:
+    print("Nenhum carro encontrado")
