@@ -50,4 +50,8 @@ class Carro:
             print("Carro já está parado")
 
 
+    def info(self):
+        print(f"o {self.marca} {self.modelo} esta a {self.velocidade} km/h")
+
+
 

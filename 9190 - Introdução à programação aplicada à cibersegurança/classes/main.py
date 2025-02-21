@@ -13,9 +13,13 @@ print(c1.marca)
 
 c1.marca = 'Fiat'
 
-c1.aclarar()
-c2.aclarar()
-
+c1.arrancar()
+c1.acelerar(10)
+c1.info()
+c1.travar_para(5)
+c1.info()
+c1.parar()
+c1.info()
 
 
 """
